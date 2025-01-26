@@ -1,1 +1,1 @@
-https://github.com/Sherry2493/Portfolio-2/
+https://sherry2493.github.io/Portfolio-2/
