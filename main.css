@@ -1,0 +1,164 @@
+body{
+  padding:0;
+  margin:0;
+  text-align:center;
+  font-family: "Merriweather", serif;
+}
+
+.front{
+  height:100vh;
+  background-color: #e3d5ca;
+  position:relative;
+  padding-top:100px;
+}
+
+.moon{
+  position:absolute;
+  width:150px;
+  height:100px;
+  right:300px;
+  top:40px;
+}
+
+
+
+h1{
+  color:#9d8189;
+  font-family:"Sacramento", cursive;
+  font-size: 5.625rem;
+  margin:30px auto 0 auto;
+
+}
+
+h2{
+  font-family:"Montserrat", sans-serif;
+  font-size:2.5rem;
+  font-weight: normal;
+  color:#9d8189;
+
+}
+
+.desktop{
+  width: 598px;
+  height:340px;
+  position:absolute;
+  bottom:0;
+  left:50%;
+  transform: translateX(-50%);
+}
+
+.middle{
+  background-color: #f5ebe0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.profile-pic{
+  height:180px;
+  width:180px;
+}
+
+.myintro{
+  width:30%;
+  text-align: center;
+  margin:0 auto;
+}
+p{
+  line-height: 2;
+  color:#5e503f;
+}
+
+hr{
+  border:dotted #a9927d 6px;
+  border-bottom: none;
+  width:4%;
+  margin:100px auto;
+}
+h3{
+  color:#7d5f64;
+}
+
+.parent{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(1,1fr);
+  width:65%;
+  margin:100px auto;
+  gap:2rem;
+  text-align: left;
+}
+.contact{
+  width:40%;
+  margin:40px auto 60px auto;
+}
+.btn{
+  background-color: #d5bdaf;
+  background-image: linear-gradient(to bottom,#d5bdaf,#b0a08f );
+  color:whitesmoke;
+  border-radius: 8px;
+  padding:10px 20px;
+  font-size: 20px;
+  cursor:pointer;
+  text-decoration:none;
+}
+
+.btn:hover{
+  background: linear-gradient(to bottom, #b3a690, #9d8b6a); 
+
+}
+.bottom{
+  background-color: #d5bdaf;
+  padding:50px 0 20px 0;
+}
+
+.footer-link{
+  color:#9c6644;
+  text-decoration: none;
+  padding:0 20px;
+}
+
+.footer-link:hover{
+  color:white;
+}
+.copyright{
+  color:whitesmoke;
+  font-size: 0.75rem;
+  padding-top:20px;
+}
+
+@media(max-width:780px){
+  .myintro {
+    width:50%;
+
+  }
+}
+@media(min-width:781px) and (max-width:1000px){
+  .myintro{
+    width:40%;
+  }
+}
+
+@media(max-width:780px){
+  .parent{
+    grid-template-columns: 1fr;
+    width:50%;
+  }
+
+}
+@media(min-width:781px) and (max-width:1000px){
+  .parent {
+    grid-template-columns: 1fr 1fr;
+    width:80%;
+
+  }
+  }
+  
+  
+  @media(max-width:780px){
+    .moon{
+      width:auto;
+      height:80px;
+    }
+  }
+  
+  
